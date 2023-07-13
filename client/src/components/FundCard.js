@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { tagType, thirdweb } from '../assets';
+import { tagType } from '../assets';
 import { daysLeft } from '../utils';
 
 const FundCard = ({ owner, title, description, target, deadline, amountCollected, image, handleClick }) => {
@@ -34,7 +34,7 @@ const FundCard = ({ owner, title, description, target, deadline, amountCollected
 
                 <div className="flex items-center mt-[20px] gap-[12px]">
                     <div className="w-[30px] h-[30px] rounded-full flex justify-center items-center bg-[#13131a]">
-                        <img src={thirdweb} alt="user" className="w-1/2 h-1/2 object-contain"/>
+                        <img src="https://media.licdn.com/dms/image/C4E03AQGxWN8ju_3qRQ/profile-displayphoto-shrink_800_800/0/1654780102819?e=2147483647&v=beta&t=yd6Urj9bEbI0ADtJKVnfnKuj1rPqjz6bMVrpM3T2sGE" alt="user" className="w-1/2 h-1/2 object-contain"/>
                     </div>
                     <p className="flex-1 font-epilogue font-normal text-[12px] text-[#808191] truncate">by <span className="text-[#b2b3bd]">{owner}</span></p>
                 </div>

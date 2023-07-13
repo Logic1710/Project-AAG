@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
-import { ethers } from 'ethers';
-
 import { useStateContext } from '../context';
 import { CountBox, CustomButton, Loader } from '../components';
 import { calculateBarPercentage, daysLeft } from '../utils';
-import { thirdweb } from '../assets';
 
 const CampaignDetails = () => {
     const { state } = useLocation();
@@ -64,7 +61,7 @@ const CampaignDetails = () => {
 
                         <div className="mt-[20px] flex flex-row items-center flex-wrap gap-[14px]">
                             <div className="w-[52px] h-[52px] flex items-center justify-center rounded-full bg-[#2c2f32] cursor-pointer">
-                                <img src={thirdweb} alt="user" className="w-[60%] h-[60%] object-contain"/>
+                                <img src="https://media.licdn.com/dms/image/C4E03AQGxWN8ju_3qRQ/profile-displayphoto-shrink_800_800/0/1654780102819?e=2147483647&v=beta&t=yd6Urj9bEbI0ADtJKVnfnKuj1rPqjz6bMVrpM3T2sGE" alt="user" className="w-[60%] h-[60%] object-contain"/>
                             </div>
                             <div>
                                 <h4 className="font-epilogue font-semibold text-[14px] text-white break-all">{state.owner}</h4>
@@ -107,7 +104,7 @@ const CampaignDetails = () => {
                         <div className="mt-[30px]">
                             <input
                                 type="number"
-                                placeholder="ETH 0.1"
+                                placeholder="OAS 0.1"
                                 step="0.01"
                                 className="w-full py-[10px] sm:px-[20px] px-[15px] outline-none border-[1px] border-[#3a3a43] bg-transparent font-epilogue text-white text-[18px] leading-[30px] placeholder:text-[#4b5264] rounded-[10px]"
                                 value={amount}
