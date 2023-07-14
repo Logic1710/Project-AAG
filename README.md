@@ -1,3 +1,4 @@
+![alt text](http://url/to/img.png)
 
 # Project SGU X AAG [Fundraiser]
 
@@ -42,6 +43,7 @@ npm start
 ## Additional Information
 
 ![License](https://img.shields.io/badge/License-Unlicensed-black.svg)
+
 ![Dev Status](https://img.shields.io/badge/Development-InProgress-blue.svg)
 
 
