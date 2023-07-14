@@ -42,9 +42,8 @@ npm start
 
 ## Additional Information
 
-![License](https://img.shields.io/badge/License-Unlicensed-black.svg)
-
-![Dev Status](https://img.shields.io/badge/Development-InProgress-blue.svg)
+![License](https://img.shields.io/badge/License-Unlicensed-black.svg)  
+![Dev Status](https://img.shields.io/badge/Development-InProgress-blue.svg)  
 
 
 
