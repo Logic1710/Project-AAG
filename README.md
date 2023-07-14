@@ -8,7 +8,6 @@ This project was created as a collaboration between AAG and SGU in order to bett
 |:--:| 
 | *Profile view of a wallet's active campaigns* |
 | ![website screenshot 2](https://i.ibb.co/pfHNFDK/Example2.png) | 
-|:--:| 
 | *Detailed view of an active dummy campaign* |
 
 ## Quickstart
