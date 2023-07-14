@@ -1,4 +1,5 @@
-![alt text](http://url/to/img.png)
+![website screenshot 1](https://i.ibb.co/YfgW224/Example1.jpg)  
+![website screenshot 2](https://i.ibb.co/pfHNFDK/Example2.png)  
 
 # Project SGU X AAG [Fundraiser]
 
