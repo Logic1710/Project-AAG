@@ -39,9 +39,10 @@ Your web3 contract should now be ready to handle transactions.
 
 **Second, the client folder:**
 
-The client folder is ready to go straight from the repo, just run the following command to get the website up and running:
+The client folder is ready to go straight from the repo, just run the following commands to get the website up and running:
 
 ```shell
+npm install
 npm start
 ```
 
